@@ -20,7 +20,7 @@ const Work = () => {
   return (
     <motion.div  className="flex">
         <Nav />
-        <div className="grid grid-cols-1 h-screen w-screen bg-gray-200 ">
+        <div className="grid grid-cols-1 xl:h-screen w-screen bg-gray-200 ">
             <MobileNav />
             <motion.div exit={{ scale: 0}} initial={{ scale: 0}} animate={{  x: 0, y: 0, scale: 1, rotate:0,}} transition={{duration:0.9}}  id='rightside' className="grid  movement grid-cols-1 gap-6  xl:gap-40 my-4 ">
                <div className="grid xl:grid-cols-2 xl:h-[350px] overflow-hidden shadow-2xl mt-4 mx-4 xl:mx-20">
@@ -35,7 +35,7 @@ const Work = () => {
                     </div>
                     <Link href={'https://travel-life-psi.vercel.app/'} ><button className="w-full p-3 h-full text-white xl:text-3xl  bg-yellow-500 hover:bg-black duration-500 uppercase ">Visit site</button></Link>
                 </div>
-                <Link href={'https://travel-life-psi.vercel.app/'}><img data-aos="flip-up" data-aos-offset="0" data-aos-delay="120" data-aos-duration="9000" src="travel.png" alt="" className="cursor-pointer h-full w-full hover:scale-110" /></Link>
+                <Link href={'https://travel-life-psi.vercel.app/'}><img data-aos="flip-up" data-aos-offset="0" data-aos-delay="120" data-aos-duration="9000" src="travel.png" alt="" className="cursor-pointer h-full w-full hover:scale-110 object-cover" /></Link>
                </div>
                <div className="grid xl:grid-cols-2 xl:h-[350px] shadow-2xl mx-4 xl:mx-20">
                 <div className="flex flex-col pt-2 bg-gray-400 border-gray-200  bg-cover bg-no-repeat backdrop-blur-lg bg-opacity-30 backdrop-opacity-90">
@@ -49,7 +49,7 @@ const Work = () => {
                     </div>
                     <Link href={'https://nextjs-blog-movement1.vercel.app/'} ><button className="w-full p-3 h-full text-white xl:text-3xl  bg-black hover:bg-blue-500 duration-500 uppercase">Visit site</button></Link>
                 </div>
-                <Link href={'https://nextjs-blog-movement1.vercel.app/'}><img data-aos="flip-up" data-aos-offset="0" data-aos-delay="120" data-aos-duration="9000" src="movement-thumbnail.png" alt="" className="cursor-pointer h-full w-full " /></Link>
+                <Link href={'https://nextjs-blog-movement1.vercel.app/'}><img data-aos="flip-up" data-aos-offset="0" data-aos-delay="120" data-aos-duration="9000" src="movement-thumbnail.png" alt="" className="cursor-pointer h-full w-full object-cover " /></Link>
                </div> 
                <div className="grid xl:grid-cols-2 xl:h-[350px] shadow-2xl mx-4 xl:mx-20">
                 <div className="flex flex-col bg-gray-400 border-gray-200  bg-cover bg-no-repeat backdrop-blur-lg bg-opacity-30 backdrop-opacity-90 pt-2 ">
@@ -62,7 +62,7 @@ const Work = () => {
                     </div>
                     <Link href={'https://blairnft.netlify.app/'} ><button className="w-full h-full p-3 text-white xl:text-3xl  bg-gradient-to-r from-indigo-500 to to-blue-400 hover:bg-red-400 duration-500 uppercase">Visit site</button></Link>
                 </div>
-                <Link href={'https://blairnft.netlify.app/'}><img data-aos="flip-up" data-aos-offset="0" data-aos-delay="120" data-aos-duration="9000" src="react native thumbnail.png" alt="" className="cursor-pointer h-full w-full " /></Link>
+                <Link href={'https://blairnft.netlify.app/'}><img data-aos="flip-up" data-aos-offset="0" data-aos-delay="120" data-aos-duration="9000" src="react native thumbnail.png" alt="" className="cursor-pointer h-full w-full object-cover " /></Link>
                </div>
             </motion.div>
         </div>
