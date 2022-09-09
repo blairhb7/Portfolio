@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react'
-import MobileNav from '../Components/MobileNav'
+import MobileNav from './MobileNav'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Link from 'next/link';
 import { motion} from 'framer-motion'
-import Nav from '../Components/Nav';
+import Nav from './Nav';
 import {  DevicePhoneMobileIcon } from "@heroicons/react/24/solid";
 import { FaEnvelope, FaPhoneSquare } from "react-icons/fa";
 

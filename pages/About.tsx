@@ -2,8 +2,8 @@ import Link from 'next/link'
 import React, { useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Nav from '../Components/Nav';
-import MobileNav from '../Components/MobileNav';
+import Nav from './Nav';
+import MobileNav from './MobileNav';
 import { motion} from 'framer-motion'
 
 const About = () => {
