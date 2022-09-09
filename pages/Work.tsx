@@ -18,9 +18,9 @@ const Work = () => {
 
 
   return (
-    <motion.div  className="flex">
+    <motion.div  className="flex xl:h-screen ">
         <Nav />
-        <div className="grid grid-cols-1 xl:h-screen w-screen bg-gray-200 ">
+        <div className="grid grid-cols-1 h-full  w-screen bg-gray-200 ">
             <MobileNav />
             <motion.div exit={{ scale: 0}} initial={{ scale: 0}} animate={{  x: 0, y: 0, scale: 1, rotate:0,}} transition={{duration:0.9}}  id='rightside' className="grid  movement grid-cols-1 gap-6  xl:gap-40 my-4 ">
                <div className="grid xl:grid-cols-2 xl:h-[350px] overflow-hidden shadow-2xl mt-4 mx-4 xl:mx-20">
