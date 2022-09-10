@@ -13,7 +13,7 @@ import MobileNav from './MobileNav';
 
 const Home: NextPage = () => {
   return (
-    <motion.div exit={{opacity: 0}} className="">
+    <motion.div exit={{opacity: 0}} className="w-screen">
       <LandingPage />
     </motion.div>
   )

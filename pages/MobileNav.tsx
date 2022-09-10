@@ -48,8 +48,8 @@ const MobileNav = () => {
 
 
   return (
-    <motion.div exit={{opacity: 0}} className='w-screen nav text-4xl fixed justify-end items-end  z-50 flex'> 
-        <div className={` flex duration-1000 w-30 px-10 justify-end items-end`} onClick={ () => setNav(!nav)}> 
+    <motion.div exit={{opacity: 0}} className='w-[95%] nav text-4xl fixed justify-end items-end  z-50 flex'> 
+        <div className={` flex duration-1000 w-30  justify-end items-end`} onClick={ () => setNav(!nav)}> 
             {nav ? <XMarkIcon className='z-50  w-10 h-10  text-yellow-500 justify-center' /> : <Bars3Icon className='z-50 xl:text-yellow-500 md:text-black flex justify-start w-10 h-10 ' />}
           </div>
           <motion.div variants={stagger}  >
