@@ -18,7 +18,7 @@ const Work = () => {
 
 
   return (
-    <motion.div  className="flex xl:h-screen h-[2300px]  w-screen">
+    <motion.div  className="flex xl:h-screen h-[1350px]  w-screen">
         <Nav />
         <div className="grid grid-cols-1 h-full  w-screen bg-gray-200 ">
             <MobileNav />
@@ -26,7 +26,7 @@ const Work = () => {
                <div className="grid xl:grid-cols-2 h-[350px]  overflow-hidden shadow-2xl mt-4 mx-4 xl:mx-20">
                 <div className="flex flex-col pt-2 bg-gray-400 border-gray-200  bg-cover bg-no-repeat backdrop-blur-lg bg-opacity-30 backdrop-opacity-90">
                     <h1 data-aos="flip-up" data-aos-offset="0" data-aos-delay="120" data-aos-duration="9000" className="px-6 uppercase xl:text-5xl text-base xl:px-36 font-bold flex">travel life</h1>
-                    <p data-aos="fade" data-aos-offset="0" data-aos-delay="120" data-aos-duration="9000" className="px-6  py-2 xl:px-20 xl:text-lg text-xs xl:py-6 text-gray-700">Travel life is a travel guide website built from scratch by me. the site is built with Next JS, Typescript, Sanity, and style with Tailwind CSS. Each travel destination is render by sanity backend SSR.</p>
+                    <p data-aos="zoom-out" data-aos-offset="0" data-aos-delay="120" data-aos-duration="9000" className="px-6  py-2 xl:px-20 xl:text-lg text-xs xl:py-6 text-gray-700">Travel life is a travel guide website built from scratch by me. the site is built with Next JS, Typescript, Sanity, and style with Tailwind CSS. Each travel destination is render by sanity backend SSR.</p>
                     <div className="flex items-center justify-center mb-4 xl:mb-6 ">
                         <img src="/next-js.svg" alt="" className="xl:w-8 xl:h-8 mx-2 h-4 w-4 md:w-7 md:h-7" />
                         <img src="/sanity.svg" alt="" className="xl:w-8 xl:h-8 mx-2 h-4 w-4 md:w-7 md:h-7" />
@@ -40,7 +40,7 @@ const Work = () => {
                <div className="grid xl:grid-cols-2 h-[350px] shadow-2xl mx-4 xl:mx-20">
                 <div className="flex flex-col pt-2 bg-gray-400 border-gray-200  bg-cover bg-no-repeat backdrop-blur-lg bg-opacity-30 backdrop-opacity-90">
                     <h1 data-aos="flip-up" data-aos-offset="0" data-aos-delay="120" data-aos-duration="9000" className="px-6 uppercase xl:text-4xl text-base xl:px-36 font-bold flex">Movement Blog</h1>
-                    <p data-aos="fade" data-aos-offset="0" data-aos-delay="120" data-aos-duration="9000" className="px-6  py-2 xl:px-20 xl:text-lg text-xs xl:py-6 text-gray-700">Movement is a blog built with Next-js, TypeScript, and style by Tailwind, with Sanity working the back-end Server Side Rendering. Each article is render out using Sanity, that includes titles, pictures, authors, and subject.</p>
+                    <p data-aos="zoom-out" data-aos-offset="0" data-aos-delay="120" data-aos-duration="9000" className="px-6  py-2 xl:px-20 xl:text-lg text-xs xl:py-6 text-gray-700">Movement is a blog built with Next-js, TypeScript, and style by Tailwind, with Sanity working the back-end Server Side Rendering. Each article is render out using Sanity, that includes titles, pictures, authors, and subject.</p>
                     <div className="flex items-center justify-center mb-4 xl:mb-6 ">
                         <img src="/next-js.svg" alt="" className="xl:w-8 xl:h-8 mx-2 h-4 w-4 md:w-7 md:h-7" />
                         <img src="/sanity.svg" alt="" className="xl:w-8 xl:h-8 mx-2 h-4 w-4 md:w-7 md:h-7" />
@@ -54,7 +54,7 @@ const Work = () => {
                <div className="grid xl:grid-cols-2 h-[350px] shadow-2xl mx-4 xl:mx-20">
                 <div className="flex flex-col bg-gray-400 border-gray-200  bg-cover bg-no-repeat backdrop-blur-lg bg-opacity-30 backdrop-opacity-90 pt-2 ">
                     <h1 data-aos="flip-up" data-aos-offset="0" data-aos-delay="120" data-aos-duration="9000" className="px-6 uppercase xl:text-4xl text-base xl:px-36 font-bold flex">NFT react natvie app</h1>
-                    <p data-aos="fade" data-aos-offset="0" data-aos-delay="120" data-aos-duration="9000" className="px-6  py-2 xl:px-20 xl:text-lg text-xs xl:py-6 text-gray-700">This NFT Application was built with React Native along with the Expo Go App. Along with app is a React built Responsive landing page styled by Tailwind CSS.</p>
+                    <p data-aos="zoom-out" data-aos-offset="0" data-aos-delay="120" data-aos-duration="9000" className="px-6  py-2 xl:px-20 xl:text-lg text-xs xl:py-6 text-gray-700">This NFT Application was built with React Native along with the Expo Go App. Along with app is a React built Responsive landing page styled by Tailwind CSS.</p>
                     <div className="flex items-center justify-center mb-4 xl:mb-6 ">
                         <img src="/react.svg" alt="" className="xl:w-8 xl:h-8 mx-2 h-4 w-4 md:w-7 md:h-7" />
                         <img src="/javascript-js.svg" alt="" className="xl:w-8 xl:h-8 mx-2 h-4 w-4 md:w-7 md:h-7" />
