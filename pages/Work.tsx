@@ -18,7 +18,7 @@ const Work = () => {
 
 
   return (
-    <motion.div  className="flex xl:h-screen h-[1300px] ">
+    <motion.div  className="flex xl:h-screen h-[2300px]  w-screen">
         <Nav />
         <div className="grid grid-cols-1 h-full  w-screen bg-gray-200 ">
             <MobileNav />
