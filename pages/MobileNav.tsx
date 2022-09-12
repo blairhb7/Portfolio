@@ -4,6 +4,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Link from 'next/link';
 import { motion} from 'framer-motion'
+import { ArrowLeftCircleIcon, ArrowRightCircleIcon, HomeIcon, PaperAirplaneIcon, CodeBracketIcon, DevicePhoneMobileIcon } from "@heroicons/react/24/solid";
+import { AiFillBehanceCircle, AiFillGithub, AiFillLinkedin,  } from "react-icons/ai";
 
 
 
@@ -55,12 +57,17 @@ const MobileNav = () => {
           <motion.div variants={stagger}  >
              <nav className=''>
               <motion.ul variants={fadeInUp} className={`${nav ? ['menu '].join('') : ''} hidden `}>
-                <li data-aos="flip-up" data-aos-offset="0" data-aos-delay="120" data-aos-duration="9000"  className='xl:text-4xl text-xl hover:animate-bounce font-bold uppercase hover:text-red-500 duration-500 icon'><Link href="/">Home</Link></li>
-                <li data-aos="flip-up" data-aos-offset="0" data-aos-delay="120" data-aos-duration="9000" className='xl:text-4xl text-xl hover:animate-bounce font-bold uppercase hover:text-orange-500 duration-500 icon'><Link href="/Projects">Projects</Link></li>
-                <li data-aos="flip-up" data-aos-offset="0" data-aos-delay="120" data-aos-duration="9000" className='xl:text-4xl text-xl hover:animate-bounce font-bold uppercase hover:text-green-500 duration-500 icon'><Link href="/About">About</Link></li>
-                <li data-aos="flip-up" data-aos-offset="0" data-aos-delay="120" data-aos-duration="15000" className='xl:text-4xl text-xl hover:animate-bounce font-bold uppercase hover:text-blue-500 duration-500 icon'><Link href="/Contact">Contact</Link></li>
+                <li data-aos="flip-up" data-aos-offset="0" data-aos-delay="120" data-aos-duration="9000"  className='xl:text-4xl text-lg hover:animate-bounce font-bold uppercase hover:text-red-500 duration-500 p-2 icon'><Link href="/">Home</Link></li>
+                <li data-aos="flip-up" data-aos-offset="0" data-aos-delay="120" data-aos-duration="9000" className='xl:text-4xl text-lg hover:animate-bounce font-bold uppercase hover:text-orange-500 duration-500 p-2  icon'><Link href="/Projects">Projects</Link></li>
+                <li data-aos="flip-up" data-aos-offset="0" data-aos-delay="120" data-aos-duration="9000" className='xl:text-4xl text-lg hover:animate-bounce font-bold uppercase hover:text-green-500 duration-500 p-2  icon'><Link href="/About">About</Link></li>
+                <li data-aos="flip-up" data-aos-offset="0" data-aos-delay="120" data-aos-duration="15000" className='xl:text-4xl text-lg hover:animate-bounce font-bold uppercase hover:text-blue-500 duration-500 p-2  icon'><Link href="/Contact">Contact</Link></li>
+                <div className="flex ">
+                <Link href={'https://github.com/blairhb7'}><AiFillGithub className='xl:w-8 xl:h-8 w-4 h-4 items-center justify-center flex cursor-pointer icon'/></Link>
+                <Link href={'https://www.linkedin.com/in/blair-chappell-23818420a/'}><AiFillLinkedin className='xl:w-8 xl:h-8 w-4 h-4 items-center justify-center flex cursor-pointer icon'/></Link>
+                </div>
               </motion.ul>
              </nav>
+             
           </motion.div>
     </motion.div>
   )
