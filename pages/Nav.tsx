@@ -40,7 +40,7 @@ const fadeInUp = {
            <Link href={'/'}><FaReact className="xl:w-12 xl:h-12 w-4 h-4 text-cyan-500 xl:m-4 m-3 cursor-pointer hover:rotate-180 duration-500" /></Link> 
            <motion.div variants={fadeInUp} className="flex flex-col justify-center items-center gap-4 mt-14">
             <Link href={'/'}><HomeIcon className='xl:w-6 xl:h-6 w-4 h-4 items-center justify-center flex text-black icon' /></Link>
-            <Link href={'/Work'}><CodeBracketIcon className='xl:w-6 xl:h-6 w-4 h-4 items-center justify-center flex text-red-500 cursor-pointer icon' /></Link>
+            <Link href={'/Projects'}><CodeBracketIcon className='xl:w-6 xl:h-6 w-4 h-4 items-center justify-center flex text-red-500 cursor-pointer icon' /></Link>
             <Link href={'/About'}><PaperAirplaneIcon className='xl:w-6 xl:h-6 w-4 h-4 items-center justify-center flex text-green-500 cursor-pointer icon' /></Link>
             <Link href={'/Contact'}><DevicePhoneMobileIcon className='xl:w-6 xl:h-6 w-4 h-4 items-center justify-center flex text-blue-500 cursor-pointer icon' /></Link>
            </motion.div>

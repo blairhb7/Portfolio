@@ -56,7 +56,7 @@ const MobileNav = () => {
              <nav className=''>
               <motion.ul variants={fadeInUp} className={`${nav ? ['menu '].join('') : ''} hidden `}>
                 <li data-aos="flip-up" data-aos-offset="0" data-aos-delay="120" data-aos-duration="9000"  className='xl:text-4xl text-xl hover:animate-bounce font-bold uppercase hover:text-red-500 duration-500 icon'><Link href="/">Home</Link></li>
-                <li data-aos="flip-up" data-aos-offset="0" data-aos-delay="120" data-aos-duration="9000" className='xl:text-4xl text-xl hover:animate-bounce font-bold uppercase hover:text-orange-500 duration-500 icon'><Link href="/Work">Work</Link></li>
+                <li data-aos="flip-up" data-aos-offset="0" data-aos-delay="120" data-aos-duration="9000" className='xl:text-4xl text-xl hover:animate-bounce font-bold uppercase hover:text-orange-500 duration-500 icon'><Link href="/Projects">Projects</Link></li>
                 <li data-aos="flip-up" data-aos-offset="0" data-aos-delay="120" data-aos-duration="9000" className='xl:text-4xl text-xl hover:animate-bounce font-bold uppercase hover:text-green-500 duration-500 icon'><Link href="/About">About</Link></li>
                 <li data-aos="flip-up" data-aos-offset="0" data-aos-delay="120" data-aos-duration="15000" className='xl:text-4xl text-xl hover:animate-bounce font-bold uppercase hover:text-blue-500 duration-500 icon'><Link href="/Contact">Contact</Link></li>
               </motion.ul>

@@ -50,12 +50,13 @@
     background-position: center;
 }
 
-.movement {
+.Movement {
     background-image: url(/movement-particles.svg)
 }
 
 .blob {
     background-image: url(/wave.svg);
+    background-size: cover;
 }
 
 .circle {
@@ -98,4 +99,52 @@
     50% {transform: rotate(20deg);}
     75% {transform: rotate(-5deg);}
     100% {transform: rotate(0deg);}
+  }
+
+
+  /* background picture */
+
+  .travel {
+    background-image: url(/travel-life.png);
+    
+    background-repeat: no-repeat;
+  }
+
+  .movement {
+    background-image: url(/movement-thumbnail.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden
+  }
+
+
+  .nft {
+    background-image: url(/nft.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .japan {
+    background-image: url(/travelvertical.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .nftphone {
+    background-image: url(/nftphone.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .movementvertical {
+    background-image: url(/movementvertical.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+  .ny {
+    background-image: url(/ny.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }

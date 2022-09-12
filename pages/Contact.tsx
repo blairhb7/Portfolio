@@ -22,7 +22,7 @@ useEffect(() => {
         <Nav />
         <MobileNav />
         <div className="grid grid-cols-1 w-screen">
-            <div className="flex flex-col justify-center h-screen circle bg-center">
+            <div className="flex flex-col justify-center h-screen circle bg-no-repeat bg-center">
                 <h1 className="xl:text-6xl text-4xl font-extrabold flex justify-center items-center uppercase">Let's connect!</h1>
                 <div className="xl:flex justify-center">
                 <div className="flex justify-center xl:p-6 p-1">

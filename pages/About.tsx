@@ -14,7 +14,7 @@ const About = () => {
 
 
   return (
-    <motion.div exit={{ scale: 0}} initial={{ scale: 0}} animate={{  x: 0, y: 0, scale: 1, rotate:0,}} transition={{duration:0.9}}  className='blob overflow-hidden bg-no-repeat '>
+    <motion.div exit={{ scale: 0}} initial={{ scale: 0}} animate={{  x: 0, y: 0, scale: 1, rotate:0,}} transition={{duration:0.9}}  className='blob 2xl:h-screen 2xl:w-screen overflow-hidden bg-no-repeat '>
         <Nav />
         <MobileNav />
         <div className=' flex flex-col md:mx-20 h-[1000px] xl:h-[700px]  xl:justify-center xl:items-center' data-aos="flip-up">
@@ -36,7 +36,7 @@ const About = () => {
               </div>
               <div className="grid col-span-1  break-inside-auto ">
                 <h1 className='flex items-center xl:pt-8 flex-col overflow-hidden xl:text-black text-white font-bold text-2xl font-outline'>About</h1>
-                <p className='flex flex-col flex-wrap break-inside-auto text-sm p-4 xl:items-center'>Hi my name is Blair Chappell, I am a front-end developer. 
+                <p className='flex flex-col flex-wrap break-inside-auto text-sm p-4 xl:items-center '>Hi my name is Blair Chappell, I am a front-end developer. 
                 For a few years now I've been making websites with HTML, CSS, and JavaScript.
                  But receantly I've been diving into more complex technology's like React, Next-js, and Typescript. 
                  Just like everyone I am always still learning. Which I enjoy because I like to continually get better at whatever I set my heart and mind to! 
