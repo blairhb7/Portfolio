@@ -49,7 +49,7 @@
 }
 
 .Movement {
-    background-image: url(/movement-particles.svg)
+    background-image: url(/nft-particles.svg)
 }
 
 .blob {
@@ -135,7 +135,7 @@
   }
 
   .movementvertical {
-    background-image: url(/movementvertical.png);
+    background-image: url(/blogpic.png);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -144,5 +144,10 @@
   .ny {
     background-image: url(/ny.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .bottom {
+    background-image: url(/bottom.svg);
     background-repeat: no-repeat;
   }

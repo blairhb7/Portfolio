@@ -28,8 +28,8 @@ const BlogPage = () => {
                         </div>
                     </div>
                 </div>
-                <div className="movementvertical bg-center h-full w-full flex justify-center items-center">
-                    <Link href={'https://nextjs-blog-movement1.vercel.app/'}><button className="uppercase xl:text-4xl border-2 text-black bg-gray-400 backdrop-blur-lg bg-opacity-30 backdrop-opacity-90 border-back font-bold h-10 p-10 items-center flex">Visit site</button></Link>
+                <div className="movementvertical bg-center  w-full flex justify-center items-center">
+                    <Link href={'https://nextjs-blog-movement1.vercel.app/'}><button className="uppercase xl:text-4xl border-2 text-black bg-gray-400 backdrop-blur-lg bg-opacity-30 backdrop-opacity-90 border-back font-bold h-10 xl:p-10 p-4 items-center flex">Visit site</button></Link>
                 </div>
         </div>
     </div>
