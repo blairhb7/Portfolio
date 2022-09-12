@@ -11,7 +11,7 @@ const NFTPage = () => {
         <div className="grid xl:grid-cols-2 grid-cols-2 h-screen">
                 <div className="flex justify-center w-screen">
                 <div className="nftphone h-full w-full flex bg-center justify-center items-center">
-                    <Link href={'https://blairnft.netlify.app/'}><button className="uppercase xl:text-4xl border-2 text-yellow-500 bg-gray-400 backdrop-blur-lg bg-opacity-30 backdrop-opacity-90 border-yellow-500 font-bold h-10 p-10 items-center flex">Visit site</button></Link>
+                    <Link href={'https://blairnft.netlify.app/'}><button className="uppercase xl:text-4xl border-2 text-yellow-500 bg-gray-400 backdrop-blur-lg bg-opacity-30 backdrop-opacity-90 border-yellow-500 font-bold h-10 xl:p-10 p-5 items-center flex">Visit site</button></Link>
                 </div>
                     <div className="flex flex-col w-full h-full bg-gray-400  border-gray-200  justify-center items-center  bg-cover bg-no-repeat backdrop-blur-lg bg-opacity-30 backdrop-opacity-90">
                         <h1 className="px-6 uppercase xl:text-4xl text-2xl  text-left font-bold flex">NFT react natvie app</h1>

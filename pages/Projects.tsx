@@ -29,11 +29,12 @@ const Projects = () => {
      <motion.div   className=''>
         <Nav />
         <MobileNav />
-        <div className="h-screen Movement bg-center">
+        <div className="h-screen Movement bg-center w-screen">
             <div className=" grid xl:grid-cols-1 animate-in fade-in grid-cols-1  ">
              <Link className='overflow-hidden' href={'/TravelPage'}><motion.div data-aos="flip-up" data-aos-offset="0" data-aos-delay="120" data-aos-duration="9000"  className="col-span-1 xl:h-[720px] h-40 sm:h-80 w-full flex justify-center travel bg-cover cursor-pointer  bg-yellow-500  "></motion.div></Link>
              <Link href={'/NFTPage'}><motion.div data-aos="flip-up" data-aos-offset="0" data-aos-delay="120" data-aos-duration="9000" className=" bg-gradient-to-r from-indigo-500 to flex h-40 sm:h-80  nft bg-center to-blue-400 xl:h-[560px] w-full col-span-1 cursor-pointer  "></motion.div></Link>
             <Link href={'/BlogPage'}><motion.div data-aos="flip-up" data-aos-offset="0" data-aos-delay="120" data-aos-duration="9000" className="col-span-1 xl:h-[560px] w-screen justify-center h-40  sm:h-80 flex movement bg-blue-500 cursor-pointer  "></motion.div></Link>
+            <Link href={'/FilmduoPage'}><motion.div data-aos="flip-up" data-aos-offset="0" data-aos-delay="120" data-aos-duration="9000" className="col-span-1 xl:h-[660px] w-screen justify-center h-60  sm:h-80 flex filmduo bg-black cursor-pointer  "></motion.div></Link>
             </div>
         </div>
     </motion.div> 

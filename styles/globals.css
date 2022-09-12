@@ -151,3 +151,9 @@
     background-image: url(/bottom.svg);
     background-repeat: no-repeat;
   }
+
+  .filmduo {
+    background-image: url(/FILMDUO.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
