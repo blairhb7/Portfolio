@@ -8,7 +8,7 @@
 <h1>ABOUT</h1>
 <h3> “This is my portfolio check it out!”</h3>
 <h4. The Goal</h4>
-<P> My portfolio, is my personal website built to not only show what I can do as a developer, but also to get a better understanding of I am. This website was built with NEXT JS, TYPESCRIPT, TAILWIND CSS. The portfolio features a project section with my recent work and web applications that I built from the ground up! Along with a brief description on how each application was built and the diffrent programming languages use on each project. The ABOUT ME section gives a peak into the developer I am and a little description of my like's and hobbies.  </p>
+<P> My portfolio, is my personal website built to not only show what I can do as a developer, but also to get a better understanding of who I am. This website was built with NEXT JS, TYPESCRIPT, TAILWIND CSS. The portfolio features a project section with my recent work and web applications that I built from the ground up! Along with a brief description on how each application was built and the different programming languages used on each project. The ABOUT ME section gives a peak into the developer I am and a little description of my like's and hobbies.  </p>
 
 
 <h1> How it was built </h1>
