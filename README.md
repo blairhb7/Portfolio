@@ -20,7 +20,7 @@
 </div>
 
 <h1> View Live Demo </h1>
-<a style="color: #e3bb1c;" href="https://blairchappell.vercel.app/">Blair Chappell Portfolio </a>
+<a style="text-transform: uppercase;" href="https://blairchappell.vercel.app/">Blair Chappell Portfolio </a>
 
 
 
