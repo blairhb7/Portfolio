@@ -3,7 +3,6 @@
 
 ![work portfolio](https://user-images.githubusercontent.com/88805312/200383924-f3db430e-bd16-4109-b163-93ed39ea96e0.png)
 
-![about portfolio](https://user-images.githubusercontent.com/88805312/200383958-167c4a90-1b89-4f9e-a24c-b6560821667a.png)
 
 <h1>ABOUT</h1>
 <h3> “This is my portfolio check it out!”</h3>
@@ -22,3 +21,5 @@
 
 <h1> View Live Demo </h1>
 <a style="color: #e3bb1c;" href="https://blairchappell.vercel.app/">Blair Chappell </a>
+
+![about portfolio](https://user-images.githubusercontent.com/88805312/200383958-167c4a90-1b89-4f9e-a24c-b6560821667a.png)
