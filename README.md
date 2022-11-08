@@ -21,4 +21,4 @@
 </div>
 
 <h1> View Live Demo </h1>
-<a style="color: #e3bb1c;" href="https://blairchappell.vercel.app/"><h3 style="color: #e3bb1c;">Blair Chappell </h3></a>
+<a style="color: #e3bb1c;" href="https://blairchappell.vercel.app/">Blair Chappell </a>
