@@ -21,7 +21,7 @@ useEffect(() => {
     <motion.div exit={{ scaleY: 0}} initial={{ scaleY: 0}} animate={{ scaleY: 1}} transition={{duration:0.5}}>
         <Nav />
         <MobileNav />
-        <div className="grid grid-cols-1 w-screen circle">
+        <div className="grid grid-cols-1 w-screen circle bg-no-repeat">
             <div className="flex flex-col justify-center h-screen circle bg-no-repeat bg-center w-screen">
                 <h1 className="xl:text-6xl text-4xl font-extrabold flex justify-center items-center uppercase">Let's connect!</h1>
                 <div className="xl:flex justify-center">
