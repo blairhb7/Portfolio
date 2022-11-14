@@ -5,10 +5,10 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    screens: {
-      '4xl' : '2400px'
-    },
     extend: {
+      screens: {
+        '4xl' : '2400px'
+      },
       fontFamily: {
         'cinzel': ['cinzel'] 
       },
