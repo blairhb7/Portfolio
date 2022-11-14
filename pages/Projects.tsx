@@ -29,9 +29,9 @@ const Projects = () => {
      <motion.div   className=''>
         <Nav />
         <MobileNav />
-        <div className=" grid xl:grid-cols-3">
+        <div className=" grid xl:grid-cols-3 2xl:grid-cols-2">
       
-          <div className="xl:bg-white xl:grid xl:h-[900px] xl:justify-center xl:w-[600px] lg:w-[400px] 2xl:w-full  xl:bg-center Movement xl:fixed hidden">
+          <div className="xl:bg-white xl:grid xl:h-[900px] xl:justify-center xl:w-[600px] lg:w-[400px] 2xl:w-full bg-no-repeat  xl:bg-center Movement xl:fixed hidden">
             <h1 className="text-black flex  justify-center text-3xl font-bold  text items-center">RECENT PROJECTS</h1>
           </div>
          
