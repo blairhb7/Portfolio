@@ -5,6 +5,9 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
+    screens: {
+      '4xl' : '2400px'
+    },
     extend: {
       fontFamily: {
         'cinzel': ['cinzel'] 
