@@ -29,16 +29,16 @@ const Projects = () => {
      <motion.div   className=''>
         <Nav />
         <MobileNav />
-        <div className=" grid xl:grid-cols-3 ">
+        <div className=" grid xl:grid-cols-3">
       
-          <div className="xl:bg-white xl:grid xl:h-[900px] xl:justify-center xl:w-[600px] lg:w-[400px]  xl:bg-center Movement xl:fixed hidden">
+          <div className="xl:bg-white xl:grid xl:h-[900px] xl:justify-center xl:w-[600px] lg:w-[400px] 2xl:w-full  xl:bg-center Movement xl:fixed hidden">
             <h1 className="text-black flex  justify-center text-3xl font-bold  text items-center">RECENT PROJECTS</h1>
           </div>
          
          <div className="">
              
           </div>
-          <div className="  xl:grid xl:grid-cols-1 animate-in fade-in gap-1 xl:rounded-sm col-span-2 xl:col-span-2  overflow-hidden ">
+          <div className="  xl:grid xl:grid-cols-1 2xl:grid-cols-4 animate-in fade-in gap-1 xl:rounded-sm col-span-2 xl:col-span-2  overflow-hidden ">
             <Link className='hover:scale-105' href={'/TravelPage'}><motion.div data-aos="flip-up" data-aos-offset="0" data-aos-delay="120" data-aos-duration="9000"  className="xl:col-span-3 xl:h-[400px] xl:rounded-lg  sm:h-80 h-40 flex justify-center travel bg-cover cursor-pointer gap-2 hover:scale-105 mr-1 "></motion.div></Link>
              <Link className='overflow-hidden hover:scale-105 ' href={'/NFTPage'}><motion.div data-aos="flip-up" data-aos-offset="0" data-aos-delay="180" data-aos-duration="9000" className=" xl:rounded-lg bg-gradient-to-r from-indigo-500 to flex h-40 sm:h-80  nft bg-center to-blue-400   col-span-1 cursor-pointer gap-2 mr-1 "></motion.div></Link>
             <Link className='overflow-hidden hover:scale-105 ' href={'/BlogPage'}><motion.div data-aos="flip-up" data-aos-offset="0" data-aos-delay="200" data-aos-duration="9000" className="col-span-3 xl:rounded-lg  justify-center h-40  bg-cover sm:h-80 flex movement bg-blue-500 cursor-pointer gap-2 mr-1 "></motion.div></Link>
