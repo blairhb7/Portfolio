@@ -26,7 +26,7 @@ const Projects = () => {
  
 
   
-     <motion.div   className='h-screen'>
+     <motion.div   className=''>
         <Nav />
         <MobileNav />
         <div className=" grid xl:grid-cols-3 ">
