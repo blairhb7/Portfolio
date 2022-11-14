@@ -13,12 +13,12 @@ const BlogPage = () => {
                     <div className="flex flex-col w-full h-full bg-gray-400  border-gray-200  justify-center items-center  bg-cover bg-no-repeat backdrop-blur-lg bg-opacity-30 backdrop-opacity-90">
                         <h1 className="px-6 uppercase xl:text-6xl text-2xl  text-left font-bold flex">Movement Blog</h1>
                         <p  className=" xl:w-[600px] xl:px-20 px-6 py-6 xl:text-lg leading-4 whitespace-pre-line text-xs xl:py-6 text-gray-700">
-                        Movement is a blog built with Next-js, TypeScript, and style by Tailwind, with Sanity working the back-end Server Side Rendering. 
-                        Each article is render out using Sanity, that includes titles, pictures, authors, and subject.
+                        Movement is a blog built with Next-js, TypeScript, and styled by Tailwind, with Sanity working the back-end server side rendering. 
+                        Each article is rendered out using Sanity, that includes titles, pictures, authors, and subjects.
                         <br/><br/>
 
                         A main feature of this Movement blog is not only the SSR but also the comment feature for each post. Using Sanity I was able to add in this
-                        comment feature, that will display a comment by a user after approval from the editor using Sanity backend. This Site orignal intentions where to emulate the famous blog site medium.
+                        comment feature, that will display a comment by a user after approval from the editor using Sanity backend. This page's orignal intention was to emulate the famous blog site Medium.
                         </p>
                         <div className="flex items-center justify-center mb-4 xl:mb-6 ">
                             <img src="/next-js.svg" alt="" className="xl:w-8 xl:h-8 mx-2 h-4 w-4 md:w-7 md:h-7" />

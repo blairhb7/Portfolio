@@ -36,19 +36,19 @@ const About = () => {
               </div>
               <div className="grid col-span-1  break-inside-auto ">
                 <h1 className='flex items-center xl:pt-8 flex-col overflow-hidden xl:text-black justify-center uppercase text-white font-bold text-5xl mt-8 font-outline'>About</h1>
-                <p className='flex flex-col flex-wrap break-inside-auto text-sm p-4 xl:items-center '>Hi my name is Blair Chappell, I am a front-end developer. 
+                <p className='flex flex-col flex-wrap break-inside-auto text-sm p-4 xl:items-center '>Hi, my name is Blair Chappell, I am a front-end developer. 
                 For a few years now I've been making websites with HTML, CSS, and JavaScript.
-                 But receantly I've been diving into more complex technology's like React, Next-js, and Typescript. 
-                 Just like everyone I am always still learning. Which I enjoy because I like to continually get better at whatever I set my heart and mind to! 
-                 Some personal info about me to get a better understaning of who I am.
+                 But receantly I've been diving into more complex technologies like React, Next-js, and Typescript. 
+                 As this field continues to change, I am always still learning. Which I enjoy because I like to continually get better at whatever I set my heart and mind to! 
+                 Below is some personal info about me to get a better understaning of who I am.
                  <br/>
                  <br/>
-                  I'm a big Golden State Warrior fan, who loves basket ball.
+                  I'm a big Golden State Warriors fan, I really love basket ball.
                    I have a huge love for the outdoors, and I like to backpack in the wilderness when I the have free time.
-                    I consider myself as a social person who easy to talk to, and enjoy learning about people's intrest. 
-                    Like most I have a huge love for Music and Movies! A huge passion of mines is film making and creating content. 
-                    I own a company called FilmDuo where I made many diffrent types of videos for commercials, wedings, and other events!
-                     That a little bit of information on me, looking foward to connecting!</p>
+                    I consider myself a social person who is easy to talk to, and I enjoy learning about other people's intrests. 
+                    Like many I have a huge love for Music and Movies! A huge passion of mine is film making and creating content. 
+                    I own a company called FilmDuo where I've made many diffrent types of videos for commercials, weddings, and other events!
+                     That's a little bit of information on me, looking foward to connecting!</p>
               </div>
             </div>
        </div>

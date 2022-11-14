@@ -14,12 +14,12 @@ const FilmduoPage = () => {
                         <h1 className="px-6 uppercase xl:text-6xl text-2xl  text-left font-bold flex">FilmDuo</h1>
                         <p  className=" xl:w-[600px] xl:px-20 px-6 py-6 xl:text-lg leading-4 whitespace-pre-line text-xs xl:py-6 text-gray-700">
                         FilmDuo is a static website that I built to showcase my video production company. The landing page is a responsive grid,
-                        that has a hover video feature that plays a video upon hovering over with the mouse. Each video was shot and edited by me. 
-                        Each video will play when hover, but will also expand upon clicking on the video. this is made possible with JavaScript.
+                        that also includes a hover video feature that plays a video upon hovering over it with the mouse. Each video was shot and edited by me. 
+                        Each video will play when the mouse hovers over, but it will also expand upon clicking on the video. This is made possible with JavaScript.
                         <br/><br/>
 
-                        Film making is one of my passion. FilmDuo website built with HTML, CSS, and JavaScript, is the combination of two of my passions coming together.
-                        I design and coded this website from scratch!
+                        Film making is one of my passions. The FilmDuo website, built with HTML, CSS, and JavaScript, is the combination of two of my passions coming together.
+                        I designed and coded this website from scratch!
                         </p>
                         <div className="flex items-center justify-center mb-4 xl:mb-6 ">
                             <img src="/html-5.svg" alt="" className="xl:w-8 xl:h-8 mx-2 h-4 w-4 md:w-7 md:h-7" />
