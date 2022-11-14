@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        '4xl' : '2400px'
+        '4xl' : '1808px'
       },
       fontFamily: {
         'cinzel': ['cinzel'] 
