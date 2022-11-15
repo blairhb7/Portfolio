@@ -31,7 +31,7 @@ const Projects = () => {
         <MobileNav />
         <div className=" grid xl:grid-cols-3 ">
       
-          <div className="xl:bg-white xl:grid xl:h-screen xl:justify-center xl:w-[600px] lg:w-[400px] 4xl:w-[1100px] bg-no-repeat 2xl:h-screen xl:bg-center Movement bg-cover xl:fixed hidden">
+          <div className="xl:bg-white xl:grid xl:h-screen xl:justify-center xl:w-[600px] lg:w-[400px] 4xl:w-[900px] bg-no-repeat 2xl:h-screen xl:bg-center Movement bg-cover xl:fixed hidden">
             <h1 className="text-black flex  justify-center text-3xl font-bold  text items-center">RECENT PROJECTS</h1>
           </div>
          
