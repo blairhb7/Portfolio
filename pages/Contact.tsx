@@ -19,6 +19,10 @@ useEffect(() => {
 
   return (
     <motion.div exit={{ scaleY: 0}} initial={{ scaleY: 0}} animate={{ scaleY: 1}} transition={{duration:0.5}}>
+        <Head>
+        <title>Blair Chappell Portfolio</title>
+        <link rel="icon" href="/React-icon..png" />
+      </Head>
         <Nav />
         <MobileNav />
         <div className="grid grid-cols-1 w-screen circle bg-no-repeat bg-center bg-cover">

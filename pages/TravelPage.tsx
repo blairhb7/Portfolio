@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Link from 'next/link'
 import React from 'react'
 import MobileNav from './MobileNav'
@@ -6,6 +7,10 @@ import Nav from './Nav'
 const TravelPage = () => {
   return (
     <div>
+        <Head>
+        <title>Blair Chappell Portfolio</title>
+        <link rel="icon" href="/React-icon..png" />
+      </Head>
         <Nav />
         <MobileNav />
         <div className="grid xl:grid-cols-2 grid-cols-2 h-screen">

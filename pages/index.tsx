@@ -13,7 +13,12 @@ import MobileNav from './MobileNav';
 
 const Home: NextPage = () => {
   return (
+
     <motion.div exit={{opacity: 0}} className="w-screen">
+      <Head>
+        <title>Blair Chappell Portfolio</title>
+        <link rel="icon" href="/React-icon..png" />
+      </Head>
       <LandingPage />
     </motion.div>
   )

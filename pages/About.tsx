@@ -5,6 +5,7 @@ import 'aos/dist/aos.css';
 import Nav from './Nav';
 import MobileNav from './MobileNav';
 import { motion} from 'framer-motion'
+import Head from 'next/head';
 
 const About = () => {
     useEffect(() => {
@@ -15,9 +16,13 @@ const About = () => {
 
   return (
     <motion.div exit={{ scale: 0}} initial={{ scale: 0}} animate={{  x: 0, y: 0, scale: 1, rotate:0,}} transition={{duration:0.9}}  className='blob 2xl:h-screen 2xl:w-screen overflow-hidden bg-no-repeat '>
+      <Head>
+        <title>Blair Chappell Portfolio</title>
+        <link rel="icon" href="/React-icon..png" />
+      </Head>
         <Nav />
         <MobileNav />
-        <div className=' flex flex-col md:mx-20 h-[1000px] xl:h-[700px]  xl:justify-center xl:items-center' data-aos="flip-up">
+        <div className=' flex flex-col md:mx-20 h-[1000px] xl:h-screen  xl:justify-center xl:items-center' data-aos="flip-up">
             <div className="shadow-2xl xl:mt-10 xl:m-0 grid grid-cols-1 xl:grid-cols-2 xl:w-[1300px]  md:h-[800px] xl:h-[400px] bg-gray-400 border-gray-200  bg-cover bg-no-repeat backdrop-blur-lg bg-opacity-30 backdrop-opacity-90">
               <div className="h-[300px] xl:pt-0 pt-6 md:pt-16 xl:h-full">
                 <h2 className='flex flex-col items-center justify-center xl:pt-16 text-5xl pb-4 xl:text-black text-white font-bold font-outline uppercase xl:p-8'>skills</h2>

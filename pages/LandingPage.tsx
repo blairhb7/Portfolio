@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Nav from './Nav';
 import MobileNav from './MobileNav';
 import { motion} from 'framer-motion'
+import Head from 'next/head';
 
 const LandingPage = () => {
 
@@ -14,6 +15,10 @@ const LandingPage = () => {
 
   return (
     <motion.div exit={{ scaleY: 0}} initial={{ scaleY: 0}} animate={{ scaleY: 1}} transition={{duration:0.5}}  className='h-screen'>
+      <Head>
+        <title>Blair Chappell Portfolio</title>
+        <link rel="icon" href="/React-icon..png" />
+      </Head>
       <Nav />
       <MobileNav />
       <div className=" flex flex-col justify-center items-center h-[800px]  md:h-screen landingpage">

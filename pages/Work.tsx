@@ -6,6 +6,7 @@ import Nav from './Nav';
 import { FaBars} from "react-icons/fa";
 import MobileNav from './MobileNav';
 import { motion} from 'framer-motion'
+import Head from 'next/head';
 
 
 
@@ -19,6 +20,10 @@ const Work = () => {
 
   return (
     <motion.div  className="flex xl:h-screen h-[1550px] md:h-[2150px] ">
+        <Head>
+        <title>Blair Chappell Portfolio</title>
+        <link rel="icon" href="/React-icon..png" />
+      </Head>
         <Nav />
         <div className="grid grid-cols-1 h-full  bg-gray-200 ">
             <MobileNav />

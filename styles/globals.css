@@ -107,6 +107,17 @@
 
 
   /* background picture */
+  .sunfish {
+    background-image: url(/sunfish.png);
+    
+    background-repeat: no-repeat;
+  }
+
+  .sunfishimg {
+    background-image: url(/pexels-katerina-11736161.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
   .travel {
     background-image: url(/travel-life.png);
