@@ -7,6 +7,7 @@ import { motion} from 'framer-motion'
 import Nav from './Nav';
 import {  DevicePhoneMobileIcon } from "@heroicons/react/24/solid";
 import { FaEnvelope, FaPhoneSquare } from "react-icons/fa";
+import Head from 'next/head';
 
 
 const Contact = () => {
